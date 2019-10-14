@@ -1,0 +1,32 @@
+{
+  "name": "race-results-client",
+  "version": "1.0.0",
+  "description": "Persists race results",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "mocha --require ./test/integrationTestHelper.js --recursive ./test/*test.js",
+    "build": "babel ./src -d dist/",
+    "start": "nodemon --exec babel-node src/main.js"
+  },
+  "author": "hej",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^5.7.4",
+    "request": "^2.88.0",
+    "saslprep": "^1.0.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/node": "^7.6.3",
+    "@babel/preset-env": "^7.6.3",
+    "mocha": "^6.2.1",
+    "mocha-prepare": "^0.1.0",
+    "mongo-unit": "^1.4.5",
+    "nodemon": "^1.19.3"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  }
+}
