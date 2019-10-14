@@ -16,11 +16,9 @@ docker-compose down && docker-compose up -d
 ```
 
 ### Run command
-Passing env vars with command, the command can look like this:     
+Passing env vars with command can look like this:     
 ```
-RESULTS_ENDPOINT=http://35.207.169.147/results \
-MONGO_URL=mongodb://localhost:27017/race_events \
-npm start
+RESULTS_ENDPOINT=http://35.207.169.147/results MONGO_URL=mongodb://localhost:27017/race_events npm start
 ```
 
 ## Running test
