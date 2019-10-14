@@ -15,13 +15,15 @@ Start the DB like this:
 docker-compose down && docker-compose up -d  
 ```
 
-## Run command
+### Run command
 Passing env vars with command, the command can look like this:     
 ```
-RESULTS_ENDPOINT=http://localhost:3000/results \
+RESULTS_ENDPOINT=http://35.207.169.147/results \
 MONGO_URL=mongodb://localhost:27017/race_events \
 npm start
 ```
 
-
-
+## Running test
+```
+npm test  
+```
