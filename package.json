@@ -19,7 +19,7 @@
     "@babel/core": "^7.6.4",
     "@babel/node": "^7.6.3",
     "@babel/preset-env": "^7.6.3",
-    "mocha": "^6.2.1",
+    "mocha": "^10.2.0",
     "mocha-prepare": "^0.1.0",
     "mongo-unit": "^1.4.5"
   },
